@@ -77,7 +77,7 @@ pip install pandas numpy scanpy anndata scikit-learn umap-learn pyarrow
 Update this line in `processing.py`:
 
 ```python
-H5AD_FILE_PATH = "/path/to/SKM_mouse_pp_cells2nuclei_2022-03-30.h5ad"
+H5AD_FILE_PATH = "//path/to/your/file.h5ad"
 ```
 
 Then run:
