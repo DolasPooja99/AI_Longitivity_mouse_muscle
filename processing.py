@@ -9,7 +9,7 @@ import scanpy as sc # Essential for single-cell specific tasks like HVG
 
 # --- Configuration ---
 # IMPORTANT: Replace with the actual path to your downloaded Mouse Muscle Atlas .h5ad file
-H5AD_FILE_PATH = "/Users/venkatachalamsubramanianperiyasubbu/Downloads/SKM_mouse_pp_cells2nuclei_2022-03-30.h5ad" # <<<--- CHANGE THIS PATH!
+H5AD_FILE_PATH = "/path/to/your/file.h5ad" # <<<--- CHANGE THIS PATH!
 
 # Name of the directory to store the output Parquet files for mouse muscle
 OUTPUT_DIR_NAME = "mouse_muscle_aging_atlas_ml_data"
